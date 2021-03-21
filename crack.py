@@ -1,10 +1,10 @@
 #pip3 install opencv-python
 import cv2
 
-#Enter image name of first image to compare
+#Enter image name of first image cimage to compare
 imagename = ""
 
-#Enter image name of second image to compare
+#Enter image name of second image newimage to compare
 imagename2 = ""
 img = cv2.imread(imagename)
 img2 = cv2.imread(imagename2)
